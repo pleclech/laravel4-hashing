@@ -3,6 +3,21 @@
     "description": "Package for when you can't use Bcrypt in Laravel 4.",
     "keywords": ["hashing", "password", "laravel"],
     "license": "DBAD",
+    "repositories": {
+      "passwordlib": {
+        "type": "package",
+        "package": {
+          "name": "passwordlib",
+          "version": "1.0",
+          "source": {
+            "url": "https://github.com/mcamiano/PHP-PasswordLib.git",
+            "type": "git",
+            "reference": "patches4openbasedir"
+          }
+        }
+      }
+    },
+
     "authors": [
         {
             "name": "Robert Clancy",
